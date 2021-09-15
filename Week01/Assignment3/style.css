@@ -1,0 +1,41 @@
+.content{
+    width: 100%;
+    padding-top: 15%;
+}
+
+.box{
+    border: 0.7px solid black;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: rgb(202, 199, 199);
+    float: center;
+}
+
+label, input{
+    padding-left: 1rem;
+    text-align: left !important;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, yellow, purple);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.submit{
+    padding: 5px 15px 5px 15px;
+    border: gray solid 1px;
+    background-color: white;
+    color: gray;
+    border-radius: 7px;
+}
+
+.submit:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 7px;
+}
